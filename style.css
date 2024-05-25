@@ -1,0 +1,81 @@
+body {
+  margin-top: 80px;
+  background-color: #edf2f9;
+}
+
+* {
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body .main {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+
+body .nav.nav-pills {
+  width: 15%;
+}
+
+body .nav-pills .nav-link.active {
+  color: #640b39;
+  background-color: #f2e3c6;
+  font-weight: 600;
+}
+
+body .nav-link {
+  color: #640b39;
+}
+
+body .nav-link:focus,
+.nav-link:hover {
+  color: #58355f;
+}
+
+body .form-select-lg {
+  font-size: 15px;
+}
+
+/* BT01 */
+#BT01 button {
+  background-color: #eeceb5;
+}
+
+/* BT02 */
+#BT02 input {
+  outline: none;
+}
+
+#BT02 button {
+  background-color: #f1868e;
+}
+
+/* BT03 */
+#BT03 button {
+  background-color: #54264d;
+  color: white;
+}
+
+/* BT04 */
+#BT04 button {
+  background-color: #87abab;
+}
+
+.tab-content {
+  width: 100%;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  body .main {
+    flex-flow: column;
+  }
+  body .nav.nav-pills {
+    width: 50%;
+  }
+}
